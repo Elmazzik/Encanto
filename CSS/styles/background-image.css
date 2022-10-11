@@ -1,0 +1,76 @@
+div{
+    min-height: 100vh;
+    color:darkgrey;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.big{
+    background: url("../images/cat4.jpg");
+    background-repeat: round;
+    background-size: cover;
+}
+.small{
+    background: url("../images/cat.jpg");
+    border: 2px solid blue;
+    background-attachment: fixed;
+}
+.folder{
+    background: url("../images/cat2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.one,.two,.three,.four,.five,.six{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    margin: 5px;
+}
+.one{
+background: linear-gradient(blue, purple)
+}
+.two{
+background: linear-gradient( to top, blue, purple, black, orange)
+}
+.three{
+    background: linear-gradient(315deg, blue,purple);
+}
+.four{
+    background: linear-gradient(to top right, blue, purple);
+}
+.five{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0, 0, 0.9));
+}
+.six{
+    background: linear-gradient( to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9));
+}
+div.banner,.header{
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+font-size: 60px;
+color:darkslateblue;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+div.banner{
+    background: url(../images/cat5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+div.header{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/cat2.jpg')center/cover no-repeat fixed;
+}
