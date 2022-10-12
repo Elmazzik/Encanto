@@ -1,0 +1,17 @@
+.banner{
+    border: 5px solid darkblue;
+    padding: 10px;
+    overflow: hidden;
+}
+.one{
+    float: right;
+    height: 300px;
+    margin-left: 50px;
+}
+.two{
+    float: left;
+    height: 50px;
+}
+p{
+    clear: both;
+}
