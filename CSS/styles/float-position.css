@@ -3,12 +3,12 @@
     padding: 10px;
     overflow: hidden;
 }
-.one{
+.first{
     float: right;
     height: 300px;
     margin-left: 50px;
 }
-.two{
+.second{
     float: left;
     height: 50px;
 }
@@ -46,4 +46,48 @@ p{
 }
 h1 {
     clear: both;
+}
+div.new{
+    border: 3px solid greenyellow;
+    background-color: coral;
+    margin-top: 40px;
+    /*text-align: left;
+    position: relative;*/
+}
+.odin{
+    background-color: rgb(255, 200, 98);
+    position: relative;
+    left: 20rem;
+    right: 50%;
+}
+.dva{
+    background-color: rgb(146, 255, 119);
+    position: relative;
+}
+.special{
+    background-color: lightseagreen;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+}
+button{
+    background-color: rgb(135, 165, 74);
+    font-size: 40px;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.bannertwo{
+    background-color: darkorchid;
+}
+div h1{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+@media screen and (min-width:576px){
+    
 }
