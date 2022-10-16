@@ -80,7 +80,7 @@ button{
     right: 0;
 }
 .bannertwo{
-    background-color: darkorchid;
+    background-color: rgb(50, 65, 204);
 }
 div h1{
     color: white;
@@ -88,6 +88,91 @@ div h1{
     text-decoration: underline;
     text-transform: capitalize;
 }
-@media screen and (min-width:576px){
-    
+@media screen and (min-width: 576px) {
+    .bannertwo{
+        background-color: mediumorchid;
+    }
+    div h1{
+    color: aliceblue;
+    font-size: 60px;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+@media screen and (max-width: 768px) {
+    .bannertwo {
+        background-color: rgb(255, 207, 103);
+    }
+
+    div h1 {
+        color: aliceblue;
+        font-size: 60px;
+        text-align: right;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+
+}
+.img{
+    margin: 20px;
+    width: 80vw;
+    height: 70vh;
+    border: 5px solid cornflowerblue;
+    position: relative;
+}
+.imgone{
+    top: 0;
+    left: 0;
+    position: static;
+}
+.imgtwo {
+    top: 10%;
+    left: 10%;
+    z-index: 1;
+}
+.imgthree {
+    top: 20%;
+    left: 20%;
+    z-index: 2;
+}
+.pf::before{
+    content: "Hello ";
+    font-size: 2rem;
+    font-weight: bold;
+    color: crimson;
+    background-color: cornflowerblue;
+}
+.pf::after{
+    content: "After";
+    font-weight: bold;
+    font-size: 2rem;
+    color: darkolivegreen;
+    background-color: coral;
+}
+.cat{
+    width: 400px;
+    height: 300px;
+}
+.newdiv{
+    width: 400px;
+    margin: 100px auto;
+    border: 2px solid blue;
+}
+.title{
+    color: black;
+}
+.newdiv::before{
+    content: "";
+    background-color: lightslategrey;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    top: -40px;
+    left: -40px;
+    z-index: -2;
 }
