@@ -1,0 +1,24 @@
+div {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    color: beige;
+}
+div:hover{
+    background-color: coral;
+}
+.one {
+    background-color: rgb(202, 132, 202);
+}
+.two {
+    background-color: rgb(125, 105, 253);
+}
+.three {
+    background-color: rgb(195, 255, 104);
+    transition-property: background;
+    transition-duration: 4s, 2s;
+    transition-delay: 3s;
+}
+.three:hover{
+    border-radius: 50%;
+}
