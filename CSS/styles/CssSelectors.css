@@ -1,0 +1,66 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#heading{
+    font-size: 40px;
+    text-transform: uppercase;
+    color:darkslateblue;
+}
+.heading{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: indianred;
+}
+.cl{
+    letter-spacing: 20px;
+}
+div h1{
+    color: darkorange;
+}
+div > h1{
+    color: rgb(102, 0, 105);
+}
+.headeer h1{
+    color: brown;
+}
+.headeer > h1{
+    color: darkviolet;
+}
+.par::first-line{
+    font-weight: bold;
+}
+.par::first-letter{
+    font-size: 3rem;
+}
+.par:hover{ 
+    color: darkolivegreen;
+}
+.header:hover{
+    background-color: indianred;
+    color: wheat;
+}
+
+a:link{
+    color:red;
+}
+a:visited{
+    color: rgb(255, 139, 30);
+}
+a:hover{
+    color: black;
+}
+a:active{
+    color: rgb(33, 196, 0);
+}
+.head{
+    font-size: 3rem;
+}
+.absolute{
+    font-size: 24px;
+}
+.responsive{
+    font-size: 1.5rem;
+}
+.new:root{
+    font-size: 150%;
+}
