@@ -1,0 +1,33 @@
+div{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    color: beige;
+}
+.one{
+    background-color: rgb(202, 132, 202);
+    transform: translateX(50%);
+}
+.two{
+    background-color: rgb(125, 105, 253);
+    transform: translateY(30px);
+}
+.three{
+    background-color: rgb(195, 255, 104);
+    transform: translate(-60px, 60px);
+}
+.four {
+    background-color: rgb(202, 132, 202);
+    transform: scaleX(0.5);
+}
+
+.five {
+    background-color: rgb(125, 105, 253);
+    transform: skewX(-30deg)
+}
+
+.six {
+    background-color: rgb(195, 255, 104);
+    transform: scale(0.5, 0.5);
+    transform: rotateZ(45deg);
+}
