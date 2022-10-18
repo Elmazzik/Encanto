@@ -1,0 +1,36 @@
+/*.heading{
+    color: rgb(89, 76, 172);
+}
+.text{
+    color: rgb(2, 177, 2);
+}
+.main-text{
+    color: rgb(167, 1, 1);
+}
+.second-heading{
+    color:darkorange;
+}*/
+:root{
+    --primaryColor: rgb(89, 76, 172);
+    --secondaryColor: rgb(4, 245, 4);
+    --mainTransition: all 0.4s linear;
+}
+.heading{
+    color: var(--primaryColor)
+}
+.second-heading{
+    color: var(--primaryColor);
+    transition: var(--mainTransition);
+}
+.second-heading:hover{
+    color: var(--secondaryColor);
+}
+div{
+    --primaryRed: rgb(211, 0, 0);
+}
+.main-text{
+    color: var(--primaryRed);
+}
+.third-heading{
+    color: var(--primaryRed);
+}
